@@ -134,6 +134,8 @@ public class SimpleGUI extends JFrame implements ActionListener, ItemListener {
             textArea.append(boxText);
         } else if (text.equals("Reset")) {
             welcomeLabel.setText("Reset pressed!");
+            textArea.setText(null);
+            textField.setText(null);
         }
     }
 
